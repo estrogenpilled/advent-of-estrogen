@@ -1,7 +1,7 @@
 import re
 from argparse import ArgumentParser
 
-parser = ArgumentParser(prog = 'day3.py',
+parser = ArgumentParser(
                         description = 'AoC 2024 day 3 solution',
                         epilog = 'Excuse me. For I have dabbled in the sinful language.'
                         );
