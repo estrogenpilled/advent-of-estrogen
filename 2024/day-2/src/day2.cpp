@@ -123,10 +123,6 @@ int main(int argc, char **argv){
     cout << "Part 2: " << part_2(report_str, input) << '\n';
     input.close();
   }
-  else{
-    cerr << "failed to open file" << '\n';
-    return 1;
-  }
   input.close();
   return 0;
 }
